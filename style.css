@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3e5d8;
+}
+h1,h2 {
+  font-family: "Young Serif", serif;
+}
+h2{
+    color: maroon;
+}
+.div-parent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.white-div {
+  position: absolute;
+  width: 650px;
+  height: 1790px;
+  border: 1px white solid;
+  border-radius: 20px;
+  top: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.rec-img {
+  width: 90%;
+  border-radius: 20px;
+  position: absolute;
+  top: 20px;
+}
+.recipe-content {
+  position: absolute;
+  top: 330px;
+}
+.prep {
+  width: 90%;
+  border-radius: 20px;
+  position: absolute;
+  top: 460px;
+  background-color: #f3e6f0;
+  padding: 25px;
+}
+.list{
+  line-height: 2;
+  margin-left: 4%;
+}
+.ingrdients{
+    position: absolute;
+    top: 680px;  
+    margin-left: -130px; 
+}
+.instructions{
+    position: absolute;
+    margin-left: 60px;
+    top: 960px;
+    
+}
+.nutrition{
+    position: absolute;
+    top: 1460px;
+}
+th{
+    font-weight: lighter;
+}
+td{
+    color: maroon;
+    font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+
+}
+
+td, th {
+  padding: 10px 90px;
+}
